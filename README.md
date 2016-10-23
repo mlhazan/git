@@ -1,6 +1,6 @@
 # git
 
-Add a folder to remote(When no README.me was added during the repo you made in the github website):
+1. Add a folder to remote(When no README.me was added during the repo you made in the github website):
 
 echo "# git1" >> README.md (or) create a file or folder then type: git init .
 git init
@@ -10,10 +10,16 @@ git remote add origin git@github.com:mlhazan/git1.git
 git push -u origin master
 
 
-cloning a repo:
+2. cloning a repo:
 git clone https://github.com/mlhazan/[nameOfRepo]/
 
-remove or drop previous commits:
+3. push an existing repository from the command line
+
+git remote add origin git@github.com:mlhazan/[nameOfRepo].git
+git push -u origin master
+
+
+4. remove or drop previous commits:
 
 $ git rebase -i HEAD~3
 
