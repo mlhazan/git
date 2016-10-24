@@ -55,3 +55,9 @@ PRESS ENTER
 Force-push the amended commits:
 git push --force
 
+5. After you deleted a commit if you like to get them back:
+
+git reflog
+git merge [sha1 number]
+
+
